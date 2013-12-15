@@ -26,6 +26,10 @@ a {
     text-decoration: none;
 }
 
+a:active {
+    color: #60aa1f;
+}
+
 .main-nav ul.menu > li:hover > a,
   .main-nav ul.menu > li > a:hover {
     background-color: #60aa1f;
