@@ -4,7 +4,7 @@
  Description:    Highwind child theme
  Author:         Sean Cull
  Author URI:     http://www.seancull.com
- Template:       Highwind
+ Template:       highwind
  Version:        1.0.0
 */
  
@@ -49,3 +49,15 @@ input[type="button"],
   -o-transition: all ease 0.238s;
   transition: all ease 0.238s;
 }
+
+.main-nav ul.menu > li.current-menu-item > a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -0.563em;
+    color: #60aa1f;
+    border: 0.563em solid #53a1b8;
+    border-color: transparent transparent #53a1b8 transparent;
+  }
