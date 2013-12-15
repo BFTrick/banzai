@@ -12,3 +12,40 @@
  
 /* =Theme customization starts here
 ------------------------------------------------------- */
+
+.header {
+    background-color: #60aa1f;
+}
+
+.main-nav {
+    border-bottom: 0.422em solid #60aa1f;
+}
+
+a {
+    color: #2b3f1e;
+    text-decoration: none;
+}
+
+.main-nav ul.menu > li:hover > a,
+  .main-nav ul.menu > li > a:hover {
+    background-color: #60aa1f;
+    color: #fff;
+}
+
+input[type="submit"],
+.button,
+input[type="button"],
+.navigation-post a,
+.navigation-paging a {
+  padding: .844em 1.125em;
+  color: #f8f8f9;
+  font-weight: 600;
+  background: #60aa1f;
+  -webkit-border-radius: 0.201em;
+  border-radius: 0.201em;
+  border: 0;
+  -webkit-transition: all ease 0.238s;
+  -moz-transition: all ease 0.238s;
+  -o-transition: all ease 0.238s;
+  transition: all ease 0.238s;
+}
